@@ -16,6 +16,8 @@
 		970E4DF52138FC0B00BA3EE9 /* CeaserCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */; };
 		978590D1214B5C350052D920 /* CeaserCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978590D0214B5C350052D920 /* CeaserCipherTests.swift */; };
 		97CA94A82142334600902499 /* CipherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA94A72142334600902499 /* CipherFactory.swift */; };
+		F86C52672154659900ED227B /* ROT13CipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C52662154659900ED227B /* ROT13CipherTest.swift */; };
+		F86C526921546B9000ED227B /* AlphaCesarCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C526821546B9000ED227B /* AlphaCesarCipherTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipher.swift; sourceTree = "<group>"; };
 		978590D0214B5C350052D920 /* CeaserCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipherTests.swift; sourceTree = "<group>"; };
 		97CA94A72142334600902499 /* CipherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherFactory.swift; sourceTree = "<group>"; };
+		F86C52662154659900ED227B /* ROT13CipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13CipherTest.swift; sourceTree = "<group>"; };
+		F86C526821546B9000ED227B /* AlphaCesarCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaCesarCipherTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */,
 				978590D0214B5C350052D920 /* CeaserCipherTests.swift */,
 				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
+				F86C52662154659900ED227B /* ROT13CipherTest.swift */,
+				F86C526821546B9000ED227B /* AlphaCesarCipherTest.swift */,
 			);
 			path = SpyAppTests;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86C526921546B9000ED227B /* AlphaCesarCipherTest.swift in Sources */,
 				970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */,
+				F86C52672154659900ED227B /* ROT13CipherTest.swift in Sources */,
 				978590D1214B5C350052D920 /* CeaserCipherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
